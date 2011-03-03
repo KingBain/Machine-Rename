@@ -1,0 +1,11 @@
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\bin\Debug\MngWrkStation.exe
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\bin\Debug\MngWrkStation.pdb
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\bin\Debug\MngWrkStation.xml
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\obj\x86\Debug\MngWrkStation.Form1.resources
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\obj\x86\Debug\MngWrkStation.Resources.resources
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\obj\x86\Debug\MngWrkStation.exe
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\obj\x86\Debug\MngWrkStation.xml
+C:\Users\John\Desktop\MngWrkStation\MngWrkStation\obj\x86\Debug\MngWrkStation.pdb
