@@ -25,12 +25,41 @@ Public Class Form1
 
     Private Sub btnOK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnOK.Click
 
-        ErrCode = objComputer.Rename(txtCurCompName.Text)
-        If ErrCode = 0 Then
-            lblStatus.Text = "Computer renamed correctly."
-        Else
-            lblStatus.Text = "Error changing computer name."
+        If rbutRename.Checked Then
+
+            If objComputer.PartOfDomain = True Then
+                MsgBox("Part of domain")
+
+                ErrCode = objComputer.Rename(txtCurCompName.Text)
+                If ErrCode = 0 Then
+                    lblStatus.Text = "Computer renamed correctly."
+                Else
+                    lblStatus.Text = "Error changing computer name."
+                End If
+            Else
+                ErrCode = objComputer.Rename(txtCurCompName.Text)
+                If ErrCode = 0 Then
+                    lblStatus.Text = "Computer renamed correctly."
+                Else
+                    lblStatus.Text = "Error changing computer name."
+                End If
+            End If
+
+        ElseIf rbutDomain.Checked Then
+            MsgBox("not done yet")
+        ElseIf rbutWrkGrp.Checked Then
+            ErrCode = objComputer.joinDomainorWorkGroup(txtCurDomain.Text)
+            If ErrCode = 0 Then
+                lblStatus.Text = "Computer renamed correctly."
+            Else
+                lblStatus.Text = "Error changing computer name."
+            End If
         End If
+
+
+
+
+
 
     End Sub
 
